@@ -79,7 +79,6 @@ body {
 .creator {
   color: white;
   font-weight: bold;
-  
 }
 
 .formPanel {
@@ -87,4 +86,18 @@ body {
   width: 60%;
   background-color: snow;
   opacity: 0.95;
+  display: flex;
+  flex-direction: column;
+}
+
+.intro,
+.logon {
+  flex: 36 1 auto;
+}
+
+.mainForm {
+  flex: 30 1 auto;
+  background-color: white;
+  box-shadow: 0 5px 10px -2px rgb(224, 218, 218);
+  border-top: 1px solid rgba(12, 12, 12, 0.1);
 }
